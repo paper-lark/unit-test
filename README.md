@@ -11,7 +11,7 @@ Simply copy script to `/usr/local/bin` or any other folder included in `PATH`.
 
 ### Usage
 
-In order to run the script, a text file (also known as a "test suit") should be created, as well as a pre-built binary of the program. Test suit follows the XML syntax and includes `<Suit>` and `<Test>` tags for specifying the test suit itself and particular tests to be executed within it.  Text between `<Test>` tags is to be passed to the `stdin` stream of the tested program. Sample test suit as well as a test program can be found in the `Sample` directory.
+In order to run the script, a text file (also known as a "test suit") should be created, as well as a binary of the program. Test suit follows the XML syntax and includes `<Suit>` and `<Test>` tags for specifying the test suit itself and particular tests to be executed within it.  Text between `<Test>` tags is to be passed to the `stdin` stream of the tested program. Sample test suit as well as a test program can be found in the `Sample` directory.
 
 After the suit is ready and the program is compiled, simply run the script with the following line:
 
