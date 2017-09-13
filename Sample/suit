@@ -1,0 +1,33 @@
+<Suit>
+    <Test>
+    <Result>
+        Hello, #3. Number is 4234.535
+    </Result>
+    3
+    4000.5
+    </Test>
+
+    <Test>
+    <Result>
+        Hello, #567. Number is 2124.532523
+    </Result>
+    567 
+    2124.532523
+    </Test>
+
+    <Test>
+    <Result>
+        Hello, #627. Number is 32.132
+    </Result>
+    627
+    32.132
+    </Test>
+
+    <Test>
+    <Result>
+        Error: Number is too big
+    </Result>
+    56246434
+    90.122
+    </Test>
+</Suit>
