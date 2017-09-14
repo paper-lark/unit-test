@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 ##################################################################################
 # Copyright (c) 2017 Max Zhuravsky												 #
@@ -160,7 +160,7 @@ read -d '' -r -a CONTENTS < ${TESTS}
 IFS="${OIFS}"
 process
 echo '> unit testing has finished!'
-if [ FAILED == "" ]; then
+if [ ${FAILED} == "" ]; then
     echo '> all tests are successfully passed'
 else
     echo "> test(s) ${FAILED} were failed"
